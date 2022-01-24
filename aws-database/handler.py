@@ -1,5 +1,5 @@
 import pymysql
-
+import json
 # 1. Install pymysql to local directory
 # pip install -t $PWD pymysql
 
@@ -22,6 +22,9 @@ def lambda_handler(event, context):
     cursor.execute('SELECT * from UCS')
 
     rows = cursor.fetchall()
+    response = []
     for row in rows:
-        print('{0} {1}'.format(row[0], row[1]))
-lambda_handler(None, None)
+        s = '{0} {1}'.format(row[0], row[1])
+        print(s)
+        response.append(s)
+    return response
