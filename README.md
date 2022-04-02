@@ -7,6 +7,10 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
 
 ### Production Tasks:
 - make sure everyone pulls. git checkout master, git pull, delete your name branch if you have one, then recreate the branch 
+- [high] handler functions to clear / reset the database tables:
+    - 1 function to empty all of the 3 tables in the database
+    - [low] 1 function to DELETE everything in the database
+    - [low] 1 function to initialize all the tables in the database
 - [high] functions to extract csv's from the repo and preprocess to make it usable by Jay's algorithm. uncompress all files from .gz to .csv when we load them in from evidence_eric
 - [high] un-hardcode all the cases in insert_into_table():
     - insert into ucs: 
@@ -32,7 +36,6 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
 - [low] data validation capabilities for inert_into_table() and all of its cases
 - [low] debug the display helper function in the handler functions cell:
     - we want to be able to print the contents of any table onto the jupyter notebook
-- [low] handler function to clear / reset the database tables
 
 ### Demonstration Tasks:
 - run the pipeline one time starting with Covid_SourceRelevancev1-2022-04-01T0047-DataHunt.csv.gz [quoted source annotation module]
