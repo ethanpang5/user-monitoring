@@ -7,6 +7,7 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
 
 ### Production Tasks:
 - make sure everyone pulls. git checkout master, git pull, delete your name branch if you have one, then recreate the branch 
+- [high] functions to extract csv's from the repo and preprocess to make it usable by Jay's algorithm. uncompress all files from .gz to .csv when we load them in from evidence_eric
 - [high] un-hardcode all the cases in insert_into_table():
     - insert into ucs: 
         - data validation [ignore for now]
@@ -17,7 +18,6 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
     - insert into datahunt_tracker:
         - data validation [ignore for now]
         - add datahunt id (quiz_task_uuid) as well as num_rows_processed
-- [high] uncompress all files from .gz to .csv when we load them in from evidence_eric
 - [high] ask Nick to create csv’s for the people in each task instead of xlsx going forward
 - [high] whitelist all the users in Covid_Source_Users.xlsx
     - at the end of the day we want to keep all of the users in this spreadsheet and associate their uiid’s with their nicknames
