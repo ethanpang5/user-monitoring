@@ -3,11 +3,10 @@
 ## ACTION ITEMS FOR April 3rd 2022 User Monitoring PRESENTATION
 ## Are we on track to present our work by Sunday? YES
 
-To access the notebook we're using for our analysis, go to /ucs-update-algorithm/pipeline.ipynb
+To access the notebook we're using for our analysis, go to /ucs-update-algorithm/pipeline.ipynb. Refer to the following sections of the README as a rough timeline for deliverables this weekend. Move completed tasks to the Completed Tasks section. Message Sushant or add a suggestion if necessary.
 
 ### Production Tasks:
 - make sure everyone pulls. git checkout master, git pull, delete your name branch if you have one, then recreate the branch 
-- [high] push the covid sources data hunt, iaa, gold standard, and schema files to evidence_eric
 - [high] un-hardcode all the cases in insert_into_table():
     - insert into ucs: 
         - data validation [ignore for now]
@@ -37,3 +36,6 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
 - eventually run the pipeline and save results for each of the different annotation modules
 - sort all the ucs scores in descending order
 - save all of the csv's and send them to Nick by sunday afternoon
+
+### Completed Tasks:
+- [high] push the covid sources data hunt, iaa, gold standard, and schema files to evidence_eric
