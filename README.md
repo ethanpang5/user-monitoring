@@ -1,6 +1,11 @@
 # Spring 2022 Public Editor User Monitoring
 
-production tasks:
+## ACTION ITEMS FOR April 3rd 2022 User Monitoring PRESENTATION
+## Are we on track to present our work by Sunday? YES
+
+To access the notebook we're using for our analysis, go to /ucs-update-algorithm/pipeline.ipynb
+
+### Production Tasks:
 - make sure everyone pulls. git checkout master, git pull, delete your name branch if you have one, then recreate the branch 
 - [high] push the covid sources data hunt, iaa, gold standard, and schema files to evidence_eric
 - [high] un-hardcode all the cases in insert_into_table():
@@ -27,7 +32,7 @@ production tasks:
     - we want to be able to print the contents of any table onto the jupyter notebook
 - [low] handler function to clear / reset the database tables
 
-demonstration tasks:
+### Demonstration Tasks:
 - run the pipeline one time starting with Covid_SourceRelevancev1-2022-04-01T0047-DataHunt.csv.gz [quoted source annotation module]
 - eventually run the pipeline and save results for each of the different annotation modules
 - sort all the ucs scores in descending order
