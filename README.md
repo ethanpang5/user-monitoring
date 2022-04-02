@@ -21,6 +21,7 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
 - [high] whitelist all the users in Covid_Source_Users.xlsx
     - at the end of the day we want to keep all of the users in this spreadsheet and associate their uiid’s with their nicknames
     - end up having a table containing nickname, uuid, and ucs score, in descending order
+- [high] create functionality to download tables from aws instance as csv's when necessary
 - [medium] figure out way to automate schema reading and loading
     - Function that IAA uses to automate reading and loading schema files: https://github.com/Goodly/pe-consensus-scoring/blob/master/consensus_and_scoring/dataV3.py#L634
     -  Some dependency of that? https://github.com/Goodly/pe-consensus-scoring/blob/master/consensus_and_scoring/config/typing_dict.txt
