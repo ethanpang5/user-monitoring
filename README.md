@@ -27,6 +27,7 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
     - Function that IAA uses to automate reading and loading schema files: https://github.com/Goodly/pe-consensus-scoring/blob/master/consensus_and_scoring/dataV3.py#L634
     -  Some dependency of that? https://github.com/Goodly/pe-consensus-scoring/blob/master/consensus_and_scoring/config/typing_dict.txt
 - [medium] create functionality to update values in any table in the database:
+- [low] after every run of the pipeline on demo-related tasks, save the csv locally. then continually merge the results of new pipeline runs. then output a single csv file with ucs scores for all n tasks for the demo
 - [low] figure out way to pull gold standard data when applicable
 - [low] data validation capabilities for inert_into_table() and all of its cases
 - [low] debug the display helper function in the handler functions cell:
