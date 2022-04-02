@@ -36,6 +36,8 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
 - [low] data validation capabilities for inert_into_table() and all of its cases
 - [low] debug the display helper function in the handler functions cell:
     - we want to be able to print the contents of any table onto the jupyter notebook
+- [low] change AWS information guide to remove part about whitelisting devices
+    - we changed inbound rules to AnyIPv4 so anyone can connect to our instance if they have the credentials
 
 ### Demonstration Tasks:
 - run the pipeline one time starting with Covid_SourceRelevancev1-2022-04-01T0047-DataHunt.csv.gz [quoted source annotation module]
