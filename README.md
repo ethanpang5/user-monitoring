@@ -1,7 +1,7 @@
 # Spring 2022 Public Editor User Monitoring
 
 production tasks:
-- make sure everyone downloads 
+- make sure everyone pulls. git checkout master, git pull, delete your name branch if you have one, then recreate the branch 
 - [high] push the covid sources data hunt, iaa, gold standard, and schema files to evidence_eric
 - [high] un-hardcode all the cases in insert_into_table():
     - insert into ucs: 
@@ -18,6 +18,8 @@ production tasks:
     - at the end of the day we want to keep all of the users in this spreadsheet and associate their uiid’s with their nicknames
     - end up having a table containing nickname, uuid, and ucs score, in descending order
 - [medium] figure out way to automate schema reading and loading
+    - Function that IAA uses to automate reading and loading schema files: https://github.com/Goodly/pe-consensus-scoring/blob/master/consensus_and_scoring/dataV3.py#L634
+    -  Some dependency of that? https://github.com/Goodly/pe-consensus-scoring/blob/master/consensus_and_scoring/config/typing_dict.txt
 - [medium] create functionality to update values in any table in the database:
 - [low] figure out way to pull gold standard data when applicable
 - [low] data validation capabilities for inert_into_table() and all of its cases
@@ -28,4 +30,5 @@ production tasks:
 demonstration tasks:
 - run the pipeline one time starting with Covid_SourceRelevancev1-2022-04-01T0047-DataHunt.csv.gz [quoted source annotation module]
 - eventually run the pipeline and save results for each of the different annotation modules
-- 
+- sort all the ucs scores in descending order
+- save all of the csv's and send them to Nick by sunday afternoon
