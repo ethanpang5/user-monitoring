@@ -38,4 +38,4 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
 - save all of the csv's and send them to Nick by sunday afternoon
 
 ### Completed Tasks:
-- [high] push the covid sources data hunt, iaa, gold standard, and schema files to evidence_eric
+- [high] push the data hunts, iaa files, and schema files for all of the annotation modules to evidence_eric
