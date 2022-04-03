@@ -11,7 +11,6 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
     - 1 function to empty all of the 3 tables in the database
     - [low] 1 function to DELETE everything in the database
     - [low] 1 function to initialize all the tables in the database
-- [high] functions to extract csv's from the repo and preprocess to make it usable by Jay's algorithm. uncompress all files from .gz to .csv when we load them in from evidence_eric
 - [high] un-hardcode all the cases in insert_into_table():
     - insert into ucs: 
         - data validation [ignore for now]
@@ -45,5 +44,6 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
 - sort all the ucs scores in descending order
 - save all of the csv's and send them to Nick by sunday afternoon
 
-### Completed Tasks:
+### Completed Tasks [in order of recency]:
+- [high] functions to extract csv's from the repo and preprocess to make it usable by Jay's algorithm. uncompress all files from .gz to .csv when we load them in from evidence_eric
 - [high] push the data hunts, iaa files, and schema files for all of the annotation modules to evidence_eric
