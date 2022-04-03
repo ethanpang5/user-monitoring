@@ -21,7 +21,6 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
     - insert into datahunt_tracker:
         - data validation [ignore for now]
         - add datahunt id (quiz_task_uuid) as well as num_rows_processed
-- [high] ask Nick to create csv’s for the people in each task instead of xlsx going forward
 - [high] whitelist all the users in Covid_Source_Users.xlsx
     - at the end of the day we want to keep all of the users in this spreadsheet and associate their uiid’s with their nicknames
     - end up having a table containing nickname, uuid, and ucs score, in descending order
@@ -45,5 +44,6 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
 - save all of the csv's and send them to Nick by sunday afternoon
 
 ### Completed Tasks [in order of recency]:
+- [high] ask Nick to create csv’s for the people in each task instead of xlsx going forward
 - [high] functions to extract csv's from the repo and preprocess to make it usable by Jay's algorithm. uncompress all files from .gz to .csv when we load them in from evidence_eric
 - [high] push the data hunts, iaa files, and schema files for all of the annotation modules to evidence_eric
