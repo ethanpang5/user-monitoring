@@ -31,6 +31,8 @@ To access the notebook we're using for our analysis, go to /ucs-update-algorithm
 - save all of the csv's and send them to Nick by sunday afternoon
 
 ### Completed Tasks [in order of recency]:
+- [high] created functionality to delete all the tables in the database + re-initialize the database
+- [high] created functionality to clear specific tables in the database
 - [high] create functionality to download tables from aws instance as csv's when necessary
 - [low] debug the display helper function in the handler functions cell:
     - we want to be able to print the contents of any table onto the jupyter notebook
