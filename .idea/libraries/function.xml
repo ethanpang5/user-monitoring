@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="function">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/aws-database/function.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
